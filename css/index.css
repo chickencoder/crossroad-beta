@@ -51,18 +51,6 @@ h3#sub-title {
   /*text-shadow: 1px 1px 2px rgb(56, 56, 56)*/
 }
 
-#header-box {
-  /* display: inline-block; */
-  background: white;
-}
-
-@media (max-width: 500px) {
-  h1#title {
-    font-size: 3rem;
-    font-weight: bolder;
-  }
-}
-
 .text-muted-light {
   color: #d9d9d9;
 }
@@ -83,7 +71,9 @@ h3#sub-title {
     background-size: 200%;
     background-position: center center;
   }
+}
 
+@media (max-width: 495px) {
   h1#title {
     font-size: 2.2em;
   }
@@ -91,7 +81,6 @@ h3#sub-title {
   h3#sub-title {
     font-size: 1em;
   }
-
 }
 
 .featurette {
